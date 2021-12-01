@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ShapeokoFeedsAndSpeedsComponent } from './shapeoko-feeds-and-speeds/shapeoko-feeds-and-speeds.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShapeokoFeedsAndSpeedsComponent
   ],
   imports: [
     BrowserModule,
